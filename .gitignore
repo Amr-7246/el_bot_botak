@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+*.env
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and debug
+*.log
+*.pot
+*.pyc
+*.pkl
+*.db
+*.sqlite3
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# dotenv files
+.env
+.env.*.local
+
+# Docker
+*.container
+*.log
+docker-compose.override.yml
+
+# MyPy / Pylint / Coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+.tox/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# FastAPI auto-generated OpenAPI docs cache (if any custom tools)
+.openapi.json
+
+# Poetry or pip-tools lock files (if used)
+poetry.lock
+Pipfile.lock
+
+# Node.js (if you're mixing with frontend)
+node_modules/
+
+# Static/media/uploads (if any dynamic content)
+uploads/
+media/
+staticfiles/
